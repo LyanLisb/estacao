@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint
 
 
 dados_route = Blueprint('dados',__name__)
