@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/climaatual.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+    <title>M.E.M.IF</title>
+</head>
+<body>
+
+
+    <header> 
+
+        <div id="logoif" class="col-1 col-s-1">
+            <img src="{{ url_for('static', filename='imagens/logoif.png') }}" alt="">
+        </div> 
+
+        <div id="titulo" class="col-8 col-s-8">
+            <h1>M.E.M.IF</h1>
+            <h2>Mini Estação Meteorológica do IF</h2>
+        </div>
+
+        <div id="logomemif" class="col-1 col-s-1">
+            <img src="{{ url_for('static', filename='imagens/logomemif.png') }}" alt="">
+        </div>
+
+    </header>
+
+        <button class="botsup">Histórico Climático</button>
+
+    <main>
+
+        <div class="row temperatura col-4 col-s-4"><!---rowtemperatura--->
+            <div class="butdiv">
+                <button type="button" class="bb" id="imgtemp"></button>
+            </div>
+            
+        </div>
+
+        <div class="row botoes col-2 col-s-2"><!---rowtresbot--->
+
+            <div><!---columnqualidadedoar--->
+                <a href="qualidadedoar.html"><img id="imgquar" src="{{ url_for('static', filename='imagens/Qualidade do Ar.png') }}" alt=""></a>
+            </div>
+
+            <div><!---column3pressaoatmosferica--->
+                <a href="pressaoatmosferica.html"><img id="imgprar" src="{{ url_for('static', filename='imagens/Pressão Atmosférica.png') }}" alt=""></a>
+
+            </div>
+
+            <div><!---column2umidadedoar--->
+                <a href="umidadedoar.html"><img id="imgumar" src="../static/imagens/Umidade do ar.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="row pluviosidade col-4 col-s-4"><!---row3pluviosidade--->
+            <a href="pluviosidade.html"><img id="imgpluv" src="../static/imagens/Pluviosidade S.png" alt=""></a>
+        </div>
+
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>

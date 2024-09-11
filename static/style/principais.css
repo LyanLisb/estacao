@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+.row::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color:#14b7cb;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    background-color: #28939c;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   
+    
+}
+
+            #logoif{
+                width: 10%;
+                margin-top: 0;
+                margin: 1vw;
+                float: left;
+            }
+            
+            #logoif img{
+                width: 80%;
+            }
+
+            #titulo {
+                width: 40%;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+
+            h1{
+                margin: 0vw;
+                padding: 2vw 2vw 0vw 2vw;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 4vw;
+                text-align: center;
+            }
+
+            h2{
+                margin: 0vw;
+                padding: 0vw 0vw 3vw 0vw;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 2vw;
+                text-align: center;
+                color: white;
+                text-decoration: underline;
+            }
+
+            #logomemif{
+                width: 10%;
+                margin-top: 0;
+                margin: 1vw;
+                float: right;
+               
+            }
+
+            #logomemif img{
+                width: 80%;
+                margin-top: 1vw;
+            }
+    
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+            /*ROW1*/
+
+            .temperatura{
+                width: 40%;
+            }
+
+                        #imgtemp{
+                            width: 100%;
+                            margin: 33.3%;
+                            height: auto;
+                            width: auto;
+                            max-width: 33.3%;
+                            max-height: 33.3%;
+                        }
+
+            /* ROW2 */
+
+            .botoes{
+                width: 20%;
+            }
+
+                        #imgquar{
+                            width: 100%;
+                            margin: 33.3% 0% 11.1% 33.3% ;
+                            height: auto;
+                            width: auto;
+                            max-width: 6vw;
+                            max-height: 6vw;
+                        }
+
+                        #imgumar{
+                            width: 20%;
+                            margin: 11.1% 0% 11.1% 33.3%;
+                            height: auto;
+                            width: auto;
+                            max-width: 6vw;
+                            max-height: 6vw;
+
+                        }
+
+                        #imgprar{
+                            width: 20%;
+                            margin: 11.1% 0% 11.1% 33.3%;
+                            height: auto;
+                            width: auto;
+                            max-width: 6vw;
+                            max-height: 6vw;
+
+                   }
+
+            /* ROW3 */
+
+            .pluviosidade{
+                width: 40%;
+            }
+
+                        #imgpluv{
+                            width: 100%;
+                            margin: 33.3%;
+                            height: auto;
+                            width: auto;
+                            max-width: 33.3%;
+                            max-height: 33.3%;
+                        }
+
+
+
+
+        /* Para smartphones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+
+
+
+        @media only screen and (min-width: 768px) {
+            /* Para tablets: */
+            .col-s-1 {width: 10%;}
+            .col-s-2 {width: 20%;}
+            .col-s-3 {width: 30%;}
+            .col-s-4 {width: 40%;}
+            .col-s-5 {width: 50%;}
+            .col-s-6 {width: 60%;}
+            .col-s-7 {width: 70%;}
+            .col-s-8 {width: 80%;}
+            .col-s-9 {width: 90%;}
+            .col-s-10 {width: 100%;}
+        }
+
+
+
+        @media only screen and (min-width: 992px) {
+            /* Para desktop: */
+            .col-1 {width: 10%;}
+            .col-2 {width: 20%;}
+            .col-3 {width: 30%;}
+            .col-4 {width: 40%;}
+            .col-5 {width: 50%;}
+            .col-6 {width: 60%;}
+            .col-7 {width: 70%;}
+            .col-8 {width: 80%;}
+            .col-9 {width: 90%;}
+            .col-10 {width: 100%;}
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ciano: 14b7cb
+Verde escuro /  verde água: 28939c
+*/
