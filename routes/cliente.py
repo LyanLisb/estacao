@@ -28,6 +28,6 @@ def historico_pressao():
 def historico_pluviosidade():
     return render_template('pluviosidade.html')
 
-@client_route.route("/dados")
-def receber_dados():
-    pass
+#@client_route.route("/dados")
+#def receber_dados():
+    
